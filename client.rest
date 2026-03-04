@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:5000
+### AppControlerGetHello
+
+# @name AppControlerGetHello
+GET {{baseUrl}}/home/hello
+
+### Rota de exemplo
+ # @name AppControllerGetExemplo
+GET {{baseUrl}}/home/exemplo
