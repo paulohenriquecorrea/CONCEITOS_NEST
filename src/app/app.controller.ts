@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('exemplo')
   getExemplo(): string {
-    return 'Rota de exemplo';
+    return this.appService.solucionaExemplo();
   }
 }
